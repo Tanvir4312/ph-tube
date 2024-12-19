@@ -88,6 +88,9 @@ document.getElementById('all-btn').addEventListener('click', function () {
     //    Active Class Add In All Button
     document.getElementById('all-btn').classList.add('active')
 
+    // Empty Section Hidden Add
+    document.getElementById('no-content-section').classList.add('hidden');
+
     // Videos Container Clear
     document.getElementById('show-all-videos-container').innerHTML = ''
 
