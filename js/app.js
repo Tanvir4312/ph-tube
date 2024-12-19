@@ -69,8 +69,8 @@ const dataLoadBySearch = () => {
                 // Videos Container Clear
                 document.getElementById('show-all-videos-container').innerHTML = '';
 
-                 // Active Class Remove In All and Dynamic Buttons
-    activeRemove()
+                // Active Class Remove In All and Dynamic Buttons
+                activeRemove()
 
                 videosDisplay(data.videos)
             });
